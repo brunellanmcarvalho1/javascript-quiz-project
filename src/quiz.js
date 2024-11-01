@@ -6,11 +6,10 @@ class Quiz {
       this.correctAnswers = 0;
       this.currentQuestionIndex = 0;
 }
-
-    getQuestion(){
-        return this.questions;
-    }
 //should return the item from the 'questions' array at the position of 'currentQuestionIndex'
+    getQuestion(){
+        return this.questions[this.currentQuestionIndex]; 
+    }
     
     // 3. moveToNextQuestion()
 
