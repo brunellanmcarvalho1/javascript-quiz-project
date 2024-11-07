@@ -9,6 +9,7 @@ class Question {
 //Math.floor(Math.random()) ...floor rounds down the number to the nearest integer 
 //Math.random() generates a random decimal number between 0 and 1
 
+
  shuffleChoices(){
     for (let i = 0; i < this.choices.length; i++){
         const shuffleMethod = Math.floor(Math.random() * this.choices.length); 
@@ -16,7 +17,7 @@ class Question {
     }
 }
 }
-    /*code explaination
+    /*code explanation
     The loop starts with i = 0 and goes until the end of choices.
     In each iteration, it generates a random index shuffleMethod within the length of choices.
     Then it swaps the element at index i with the element at index shuffleMethod.
