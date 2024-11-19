@@ -202,7 +202,6 @@ document.addEventListener("DOMContentLoaded", () => {
     // 1. Hide the quiz view (div#quizView)
     quizView.style.display = "none";
 
-    // 2. Show the end view (div#endView)
     endView.style.display = "flex";
 
     // 3. Update the result container (div#result) inner text to show the number of correct answers out of total questions
